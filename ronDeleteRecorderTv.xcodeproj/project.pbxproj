@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		615ED5491B185B2B00C9141B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED5481B185B2B00C9141B /* AppDelegate.swift */; };
+		615ED54B1B185B2B00C9141B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED54A1B185B2B00C9141B /* ViewController.swift */; };
+		615ED54E1B185B2B00C9141B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615ED54C1B185B2B00C9141B /* Main.storyboard */; };
+		615ED5501B185B2B00C9141B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615ED54F1B185B2B00C9141B /* Images.xcassets */; };
+		615ED5531B185B2B00C9141B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615ED5511B185B2B00C9141B /* LaunchScreen.xib */; };
+		615ED55F1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED55E1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615ED5591B185B2B00C9141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615ED53B1B185B2B00C9141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615ED5421B185B2B00C9141B;
+			remoteInfo = ronDeleteRecorderTv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		615ED5431B185B2B00C9141B /* ronDeleteRecorderTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ronDeleteRecorderTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615ED5471B185B2B00C9141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615ED5481B185B2B00C9141B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		615ED54A1B185B2B00C9141B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		615ED54D1B185B2B00C9141B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615ED54F1B185B2B00C9141B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		615ED5521B185B2B00C9141B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		615ED5581B185B2B00C9141B /* ronDeleteRecorderTvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ronDeleteRecorderTvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615ED55D1B185B2B00C9141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615ED55E1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ronDeleteRecorderTvTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615ED5401B185B2B00C9141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615ED5551B185B2B00C9141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615ED53A1B185B2B00C9141B = {
+			isa = PBXGroup;
+			children = (
+				615ED5451B185B2B00C9141B /* ronDeleteRecorderTv */,
+				615ED55B1B185B2B00C9141B /* ronDeleteRecorderTvTests */,
+				615ED5441B185B2B00C9141B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		615ED5441B185B2B00C9141B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615ED5431B185B2B00C9141B /* ronDeleteRecorderTv.app */,
+				615ED5581B185B2B00C9141B /* ronDeleteRecorderTvTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615ED5451B185B2B00C9141B /* ronDeleteRecorderTv */ = {
+			isa = PBXGroup;
+			children = (
+				615ED5481B185B2B00C9141B /* AppDelegate.swift */,
+				615ED54A1B185B2B00C9141B /* ViewController.swift */,
+				615ED54C1B185B2B00C9141B /* Main.storyboard */,
+				615ED54F1B185B2B00C9141B /* Images.xcassets */,
+				615ED5511B185B2B00C9141B /* LaunchScreen.xib */,
+				615ED5461B185B2B00C9141B /* Supporting Files */,
+			);
+			path = ronDeleteRecorderTv;
+			sourceTree = "<group>";
+		};
+		615ED5461B185B2B00C9141B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				615ED5471B185B2B00C9141B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		615ED55B1B185B2B00C9141B /* ronDeleteRecorderTvTests */ = {
+			isa = PBXGroup;
+			children = (
+				615ED55E1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift */,
+				615ED55C1B185B2B00C9141B /* Supporting Files */,
+			);
+			path = ronDeleteRecorderTvTests;
+			sourceTree = "<group>";
+		};
+		615ED55C1B185B2B00C9141B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				615ED55D1B185B2B00C9141B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615ED5421B185B2B00C9141B /* ronDeleteRecorderTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615ED5621B185B2B00C9141B /* Build configuration list for PBXNativeTarget "ronDeleteRecorderTv" */;
+			buildPhases = (
+				615ED53F1B185B2B00C9141B /* Sources */,
+				615ED5401B185B2B00C9141B /* Frameworks */,
+				615ED5411B185B2B00C9141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ronDeleteRecorderTv;
+			productName = ronDeleteRecorderTv;
+			productReference = 615ED5431B185B2B00C9141B /* ronDeleteRecorderTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615ED5571B185B2B00C9141B /* ronDeleteRecorderTvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615ED5651B185B2B00C9141B /* Build configuration list for PBXNativeTarget "ronDeleteRecorderTvTests" */;
+			buildPhases = (
+				615ED5541B185B2B00C9141B /* Sources */,
+				615ED5551B185B2B00C9141B /* Frameworks */,
+				615ED5561B185B2B00C9141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615ED55A1B185B2B00C9141B /* PBXTargetDependency */,
+			);
+			name = ronDeleteRecorderTvTests;
+			productName = ronDeleteRecorderTvTests;
+			productReference = 615ED5581B185B2B00C9141B /* ronDeleteRecorderTvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615ED53B1B185B2B00C9141B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Macbook Pro MD102";
+				TargetAttributes = {
+					615ED5421B185B2B00C9141B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					615ED5571B185B2B00C9141B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 615ED5421B185B2B00C9141B;
+					};
+				};
+			};
+			buildConfigurationList = 615ED53E1B185B2B00C9141B /* Build configuration list for PBXProject "ronDeleteRecorderTv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615ED53A1B185B2B00C9141B;
+			productRefGroup = 615ED5441B185B2B00C9141B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615ED5421B185B2B00C9141B /* ronDeleteRecorderTv */,
+				615ED5571B185B2B00C9141B /* ronDeleteRecorderTvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615ED5411B185B2B00C9141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615ED54E1B185B2B00C9141B /* Main.storyboard in Resources */,
+				615ED5531B185B2B00C9141B /* LaunchScreen.xib in Resources */,
+				615ED5501B185B2B00C9141B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615ED5561B185B2B00C9141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615ED53F1B185B2B00C9141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615ED54B1B185B2B00C9141B /* ViewController.swift in Sources */,
+				615ED5491B185B2B00C9141B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615ED5541B185B2B00C9141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615ED55F1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		615ED55A1B185B2B00C9141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615ED5421B185B2B00C9141B /* ronDeleteRecorderTv */;
+			targetProxy = 615ED5591B185B2B00C9141B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		615ED54C1B185B2B00C9141B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615ED54D1B185B2B00C9141B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615ED5511B185B2B00C9141B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615ED5521B185B2B00C9141B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615ED5601B185B2B00C9141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		615ED5611B185B2B00C9141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615ED5631B185B2B00C9141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ronDeleteRecorderTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		615ED5641B185B2B00C9141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ronDeleteRecorderTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		615ED5661B185B2B00C9141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ronDeleteRecorderTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ronDeleteRecorderTv.app/ronDeleteRecorderTv";
+			};
+			name = Debug;
+		};
+		615ED5671B185B2B00C9141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ronDeleteRecorderTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ronDeleteRecorderTv.app/ronDeleteRecorderTv";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615ED53E1B185B2B00C9141B /* Build configuration list for PBXProject "ronDeleteRecorderTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615ED5601B185B2B00C9141B /* Debug */,
+				615ED5611B185B2B00C9141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615ED5621B185B2B00C9141B /* Build configuration list for PBXNativeTarget "ronDeleteRecorderTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615ED5631B185B2B00C9141B /* Debug */,
+				615ED5641B185B2B00C9141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615ED5651B185B2B00C9141B /* Build configuration list for PBXNativeTarget "ronDeleteRecorderTvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615ED5661B185B2B00C9141B /* Debug */,
+				615ED5671B185B2B00C9141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615ED53B1B185B2B00C9141B /* Project object */;
+}
