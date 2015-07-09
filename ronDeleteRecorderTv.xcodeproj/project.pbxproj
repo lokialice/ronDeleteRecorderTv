@@ -13,6 +13,9 @@
 		615ED5501B185B2B00C9141B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615ED54F1B185B2B00C9141B /* Images.xcassets */; };
 		615ED5531B185B2B00C9141B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615ED5511B185B2B00C9141B /* LaunchScreen.xib */; };
 		615ED55F1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED55E1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift */; };
+		615ED5691B185BA900C9141B /* PlayersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED5681B185BA900C9141B /* PlayersVC.swift */; };
+		615ED56B1B185BFB00C9141B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED56A1B185BFB00C9141B /* Player.swift */; };
+		615ED56D1B185C7200C9141B /* DataForTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615ED56C1B185C7200C9141B /* DataForTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		615ED5581B185B2B00C9141B /* ronDeleteRecorderTvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ronDeleteRecorderTvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		615ED55D1B185B2B00C9141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615ED55E1B185B2B00C9141B /* ronDeleteRecorderTvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ronDeleteRecorderTvTests.swift; sourceTree = "<group>"; };
+		615ED5681B185BA900C9141B /* PlayersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersVC.swift; sourceTree = "<group>"; };
+		615ED56A1B185BFB00C9141B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		615ED56C1B185C7200C9141B /* DataForTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataForTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				615ED54F1B185B2B00C9141B /* Images.xcassets */,
 				615ED5511B185B2B00C9141B /* LaunchScreen.xib */,
 				615ED5461B185B2B00C9141B /* Supporting Files */,
+				615ED5681B185BA900C9141B /* PlayersVC.swift */,
+				615ED56A1B185BFB00C9141B /* Player.swift */,
+				615ED56C1B185C7200C9141B /* DataForTable.swift */,
 			);
 			path = ronDeleteRecorderTv;
 			sourceTree = "<group>";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615ED56B1B185BFB00C9141B /* Player.swift in Sources */,
 				615ED54B1B185B2B00C9141B /* ViewController.swift in Sources */,
+				615ED5691B185BA900C9141B /* PlayersVC.swift in Sources */,
 				615ED5491B185B2B00C9141B /* AppDelegate.swift in Sources */,
+				615ED56D1B185C7200C9141B /* DataForTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
